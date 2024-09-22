@@ -1,0 +1,106 @@
+
+
+.order-history-container {
+  max-width: 102.4rem; /* Set a maximum width for responsiveness */
+  margin: 0 auto;
+  padding: 2.0rem;
+  justify-content: center;
+}
+
+.order-history-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.0rem;
+}
+
+.order-history-title {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.order-history-content {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  gap: 3.0rem; /* Add spacing between orders */
+  padding: 0 2.0rem; 
+}
+
+.order-item {
+  display: flex;
+  flex-direction: column; /* Stack information vertically */
+  padding: 2.0rem;
+  border: .1rem solid #ddd;
+  border-radius: 1.0rem;
+  box-shadow: 0 .2rem .5rem rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.order-item img {
+  width: 8.0rem;
+  height: 8.0rem;
+  margin-bottom: 1.0rem;
+  border-radius: 50%; /* Round image corners */
+}
+
+.order-details {
+  flex: 1; /* Allow details to fill available space */
+  text-align: left;
+}
+
+.order-details p {
+  margin: .5rem 0;
+  text-align: left;
+  font-size: 0.9rem; /* Adjust font size as needed */
+}
+
+.order-details a {
+ margin-top: 1rem;
+  text-decoration: none;
+  
+}
+
+.order-details a:hover {
+  text-decoration: underline;
+}
+
+.slot {
+  display: flex;
+  align-items: center;
+  margin-bottom: .5rem;
+}
+
+.slot-icon {
+  margin-right: .5rem;
+  font-size: 1.2rem;
+  color: inherit; /* Inherit color from parent */
+}
+
+.status {
+  font-weight: bold;
+  text-transform: uppercase; 
+}
+.booked{
+  color: rgba(3, 44, 206, 0.719);
+}
+.completed{
+  color: green;
+}
+
+.cancelled{
+  color: red;
+}
+.ongoing-orders,
+.completed-orders {
+  max-width: 102.4rem; /* Set a maximum width for responsiveness */
+  flex: 1; /* Make each section take up half the space */
+  margin-bottom: 3.0rem; /* Add some spacing between sections */
+}
+.details-button{
+  margin: 1rem;
+  width: fit-content;
+}
+.card-body{
+  display: flex;
+  flex-direction: column;
+
+}

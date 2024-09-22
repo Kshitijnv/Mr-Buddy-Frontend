@@ -1,0 +1,94 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.h-wrapper {
+  background-color: #131110;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  
+}
+
+.h-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.0rem;
+  margin-right: 1.7rem;
+}
+.h-container a img{
+  width: 10rem;
+}
+
+.h-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap; 
+}
+
+.h-menu a {
+  color: #fff;
+  text-decoration: none;
+  margin: 1.0rem;
+  padding: .4rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+.h-menu a:hover {
+  color: #ffa600f3;
+  transform: scale(1.08);
+}
+
+button {
+  background: none;
+  color: #ffffff;
+  padding: .8rem 1.2rem;
+  font-size: medium;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.08);
+  color: #ffa600f3;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Styling for the dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 16.0rem;
+  box-shadow: 0.8rem 1.6rem rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 0.5rem;
+  
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Styling for the dropdown links */
+.dropdown-content a {
+  padding: 1.2rem 1.6rem;
+  display: block;
+  text-decoration: none;
+  color: #333;
+}
+
+/* Change link color on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show dropdown content on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}

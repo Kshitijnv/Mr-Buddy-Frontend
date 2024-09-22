@@ -1,0 +1,70 @@
+.App{
+  margin: 0rem;
+  padding: 0rem !important;
+  width: 100%;
+}
+::-webkit-scrollbar{
+width: 5px;
+}
+::-webkit-scrollbar-track{
+background-color: rgba(0, 0, 0, 0.873);
+
+}
+::-webkit-scrollbar-thumb{
+background-color: rgba(255, 166, 2, 0.803);
+border-radius: 2rem;
+}
+.font-size-10{
+  font-size: 1rem;
+}
+.font-size-15{
+  font-size: 1.5rem;
+}
+.font-size-20{
+  font-size: 2rem;
+}
+.font-size-30{
+  font-size: 3rem;
+}
+.font-size-40{
+  font-size: 4rem;
+}
+.font-size-50{
+  font-size: 5rem;
+}
+.font-size-60{
+  font-size: 6rem;
+}
+.font-size-70{
+  font-size: 7rem;
+}
+.font-size-80{
+  font-size: 8rem;
+}
+@media screen and (max-width: 998px) and (min-width:768px) {
+  html{
+    font-size: 55%;
+  }
+} 
+@media screen and (max-width: 768px) {
+  html{
+    font-size: 35%;
+  }
+  .hero-container{
+    flex-wrap: nowrap;
+  }
+  .right-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 2.5rem;
+  }
+  .h-menu a{
+    margin: 0.5rem !important;
+    font-size: 1.2rem !important;
+  }
+  .dropdown span{
+    margin: 0.5rem !important;
+    font-size: 1.2rem !important;
+  }
+} 

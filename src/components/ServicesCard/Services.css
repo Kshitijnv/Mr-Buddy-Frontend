@@ -1,0 +1,103 @@
+.service-container {
+    background-color: #fff;
+    margin-top: 2.0rem;
+    box-shadow: 0 0 1.0rem rgba(0, 0, 0, 0.1);
+    padding: 2.0rem; /* Added padding for spacing inside the border */
+    margin-bottom: 2.0rem;
+  }
+  .specification-container{
+    background-color: #f0f0f0;
+    box-shadow: 0 0 1.0rem rgba(0, 0, 0, 0.1);
+    
+  }
+  .service-container img {
+    max-width: 8rem;
+    padding-bottom: 2rem;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    font-size: 1.4rem; /* Adjust the font size for the original price */
+    color: red; /* Adjust the color for the original price */
+  }
+  
+  .discounted-price {
+    font-weight: bold;
+    font-size: 1.8rem; 
+    color: green;
+    /* Adjust the font size for the discounted price */
+  }
+  
+  .service-info {
+    color: #333;
+
+  }
+  
+  .list {
+    display:inline-block;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .second-row{
+    padding-top:10.0rem;
+  }
+
+.hours-taken{
+  background-color: rgb(196, 192, 192);
+  border: .1rem solid rgb(196, 192, 192);
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  width: fit-content;
+}
+.right-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.left-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0rem;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  display: flex;
+  align-items: center;
+  margin: 0.2rem;
+  flex-basis: calc(50% - 2.0rem); /* Two specifications per row with margin */
+  box-sizing: border-box;
+}
+.cartButton{
+  font-weight: 500;
+  padding: 0.6rem 1.4rem;
+  color:blue;
+  background: var(--lightBlue);
+  border: none;
+  border-radius: .4rem;
+}
+@media screen and (max-width: 768px) {
+  .right-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 2.5rem !important;
+  }
+} 

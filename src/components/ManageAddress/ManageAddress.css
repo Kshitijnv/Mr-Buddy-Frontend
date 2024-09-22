@@ -1,0 +1,47 @@
+/* ManageAddress.css */
+
+.manage-address-container {
+    padding: 2.0rem;
+    border: .1rem solid #00050a;
+    border-radius: .5rem;
+    width: 40.0rem;
+    margin-top: 4.0rem;
+    margin-bottom: 7.0rem;
+    background-color: rgb(214, 171, 233);
+    margin: auto;
+    margin-bottom: 5.0rem;
+    margin-top: 2.0rem;
+  }
+  
+  .address-box span {
+    display: flex;
+    text-align: center;
+  }
+  
+  .address-box span svg {
+    margin-right: .5rem;
+  }
+  
+  .addnewbtn {
+    margin-top: 1.0rem;
+    border-radius: .4rem;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .addnewbtn:hover {
+    background-color: #0056b3;
+  }
+  
+  .mng-add-title{
+    color: mediumvioletred;
+    padding-top: 2.0rem;
+    text-decoration: underline;
+  }
+
+.span1{
+    text-align: center;
+     margin-left: 9.0rem;
+}
+

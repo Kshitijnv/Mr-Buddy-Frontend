@@ -1,0 +1,34 @@
+.address-section {
+    display: contents;
+    margin: 1rem;
+  }
+  
+  .address-section td {
+    padding: 0.5rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  select, input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 0.4rem;
+    font-size: medium;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Add some styling for loading indicator */
+  select:disabled {
+    background-color: #f0f0f0;
+  }
+  
+  /* Optional: Add some styling for loading cities message */
+  .loading-cities {
+    font-style: italic;
+    color: #888;
+  }

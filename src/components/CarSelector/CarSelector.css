@@ -1,0 +1,15 @@
+.car-selector-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0.2rem;
+    border: .1rem solid grey;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+.car-selector-container .row{
+margin: 0.5rem;
+}
+.car-selector-container .row .col-md-12{
+    display: flex;
+    justify-content: flex-end;
+}

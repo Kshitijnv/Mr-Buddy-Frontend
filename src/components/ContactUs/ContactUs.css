@@ -1,0 +1,77 @@
+.contact-container {
+    display: flex;
+    margin: 0.5rem;
+    padding: 1rem;
+    border: .1rem solid grey;
+    border-radius: 0.5rem;
+
+  }
+  
+  .contact-form {
+    margin-top: 2.0rem;
+    width: 45%;
+    
+  }
+  
+  .contact-form h2 {
+    margin-bottom: 2.0rem;
+  }
+  
+  .form-group {
+    margin-bottom: 2.0rem;
+    width: 50.0rem;
+    margin-left: 5.0rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: .5rem;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 75%;
+    padding: 1.0rem;
+    border: .1rem;
+    border-radius: .5rem;
+    border-color: black;
+    border-style: double;
+  }
+
+  button[type="submit"] {
+    padding: 1.0rem 2.0rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+  }
+  
+  .contact-info {
+    width: 45%;
+    margin-top: 5.0rem;
+  }
+  
+  .contact-info h2 {
+    margin-bottom: 2.0rem;
+  }
+  
+  .info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    margin-left: 20.0rem;
+  }
+  
+  .info-item i {
+    margin-right: 1.0rem;
+  }
+  
+  .ourlocationtitle{
+  padding-left: .0rem; ;
+  }
+
+  .far fa-envelope{
+    color: rgb(32, 207, 32);
+  }
+  

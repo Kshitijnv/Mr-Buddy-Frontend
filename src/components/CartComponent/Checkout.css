@@ -1,0 +1,74 @@
+.date-time-section {
+    text-align: left;
+    padding: 0.5rem;
+    border: 1px solid rgba(128, 128, 128, 0.494);
+    width: fit-content;
+  }
+  
+  .date-box {
+    border: 1px solid black;
+    border-radius: 0.8rem;
+    max-width: fit-content;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+    margin: 0 1rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .date-box-container {
+    display: flex;
+    margin: 1rem 0rem;
+  }
+  
+  .selected-date {
+    background-color: rgba(255, 166, 0, 0.071);
+    border: 1px solid orange;
+    color: orange;
+  }
+  
+  .time-slot-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+  }
+  
+  .time-slot-category {
+    display: flex;
+    align-items: center;
+    width: 30%;
+  }
+  
+  .time-slot {
+    border: 1px solid black;
+    border-radius: 0.8rem;
+    max-width: fit-content;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    flex: none;
+  }
+  
+  .selected-time-slot {
+    background-color: rgba(255, 166, 0, 0.071);
+    border: 1px solid orange;
+    color: orange;
+  }
+  .order-button-container {
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .error-message {
+    color: red;  /* or any other color you prefer */
+    font-size: 14px;  /* adjust the font size as needed */
+  }
+  

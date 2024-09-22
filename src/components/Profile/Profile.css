@@ -1,0 +1,51 @@
+    .profile-details {
+    margin-top: 2.0rem;
+    padding: auto;
+    text-align: center;
+  }
+  
+  .profile-details table {
+    width: 30%;
+    margin-bottom: 2.0rem;
+    text-align: center;
+    background-color:rgba(232, 179, 87, 0.702) ;
+    margin-left: 42.5rem;
+  }
+  
+  .profile-details td {
+    padding: .8rem;
+    border: .1rem solid #ddd;
+  
+  }
+ 
+  .profile-details button.btn-edit{
+    background-color: #3498db;
+    color: white;
+    padding: .8rem 1.2rem;
+    border: none;
+    border-radius: .4rem;
+    cursor: pointer;
+    margin-bottom: 4.0rem;
+    margin-top: 2.0rem;
+  }
+  
+  .profile-details button.btn-edit:hover {
+    background-color: #2980b9;
+  }
+  
+  .edit_details{
+    width: 30%;
+    margin: 0 auto; 
+    background-color: rgba(246, 188, 0, 0.727);
+    border-color: black;
+    border-radius: 1.0rem;
+    border-style: solid;
+    margin-bottom: 1rem;
+  }
+
+  .profile-container{
+    text-align: center;
+    padding:5.0rem;
+  }
+
+  
